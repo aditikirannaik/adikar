@@ -32,10 +32,14 @@ body {
 
 }
 
-footer{
-  display: block;
-
-}
+/* Style the footer */
+      footer {
+          background-color: #990000;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        display: block;
+      }
 
 /*for Heading name "Food Exploria" */
 .edit{

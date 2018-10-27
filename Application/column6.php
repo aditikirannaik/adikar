@@ -120,7 +120,7 @@ footer{
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="adi.php">DIGISOL</a>
+          <a class="navbar-brand" href="index.php">DIGISOL</a>
            <a class="navbar-brand" href="month_leave_track.php">BACK</a>
         </div>
 

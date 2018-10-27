@@ -45,12 +45,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="adi.php">DIGISOL</a>
+          <a class="navbar-brand" href="index.php">DIGISOL</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active" ><a href="adi.php">Home</a></li>
+            <li class="active" ><a href="index.php">Home</a></li>
             <li><a href="aboutus.php">About</a></li>
             <li><a href="contactus.php">Contact Us</a></li>
           </ul>

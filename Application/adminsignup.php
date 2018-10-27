@@ -38,6 +38,25 @@
       }
     </script>
 
+    <style type="text/css">
+      nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: #ccc;
+        padding: 20px;
+      }
+
+      /* Style the footer */
+      footer {
+          background-color: #990000;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        display: block;
+      }
+    </style>
+
     <nav class="navbar navbar-inverse navbar-fixed-top navigation-clean-search" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -47,26 +66,44 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">DIGISOL</a>
+          <a class="navbar-brand" href="index.php">Smartlink Systems Ltd</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
           <ul class="nav navbar-nav">
-            <li  ><a href="adi.php">Home</a></li>
-            <li><a href="adi.php">About</a></li>
-            <li><a href="contactus.php">Contact Us</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#piechart">ATTENDANCE CHART</a></li>
+          <li><a href="#services">CONTACT HODS</a></li>
           </ul>
+
+<?php
+if(isset($_SESSION['login_user1'])){
+
+?>
+
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="adminsignup.php" class="dropdown-toggle active"> Sign Up</span> </a>
-            </li>
-
-            <li><a href="adminlogin.php" class="dropdown-toggle active">Login</span></a>
-              
-            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_user1']; ?> </a></li>
+            <li><a href="myrestaurant.php">Admin HR CONTROL PANEL</a></li>
+            <li><a href="logout_m.php"><span class="glyphicon glyphicon-log-out"></span> Log Out </a></li>
           </ul>
-        </div>
 
+  <?php        
+}
+else {
+
+  ?>
+
+<ul class="nav navbar-nav navbar-right">
+            <li><a href="adminsignup.php"><span class="glyphicon glyphicon-user"></span> Sign Up  </a> </li>
+
+            <li><a href="adminlogin.php"><span class="glyphicon glyphicon-log-in"></span> Login </a> </li>
+          </ul>
+<?php
+}
+?>
+
+ </div>
       </div>
     </nav>
     <div class="container">
