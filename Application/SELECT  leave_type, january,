@@ -1,0 +1,29 @@
+SELECT  leave_type, january,
+  max(case when month = 'january' then total_s else 0 end) january,
+  max(case when month = 'february' then total_s else 0 end) february,
+  max(case when month = 'march' then total_s else 0 end) march,
+  max(case when month = 'april' then total_s else 0 end) april,
+  max(case when month = 'may' then total_s else 0 end) may,
+  max(case when month = 'june' then total_s else 0 end) june
+from
+(
+  select month, total_s, 'total_s' leave_type
+  from demo
+  union all
+  select month, wo_leave, 'wo_leave' leave_type
+  from demo
+  union all
+  select month, cl_leave, 'cl_leave' leave_type
+  from demo
+  union all
+  select month, ml_leave, 'ml_leave' leave_type
+  from demo
+  union all
+  select month, total_p, 'total_p' leave_type
+  from demo
+  union all
+  select month, brvl_leave, 'brvl_leave' leave_type
+  from demo
+
+) src
+group by leave_type;
