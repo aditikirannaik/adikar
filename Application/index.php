@@ -104,7 +104,7 @@ else {
       
     </div>
     <div class="col-sm-4">
-      <img src="W2rp7Alv_400x400.jpg" alt="digisol" width="500" height="333">
+      <img src="images/W2rp7Alv_400x400.jpg" alt="digisol" width="500" height="333">
     </div>
   </div>
 </div>
@@ -180,13 +180,13 @@ function drawChart() {
   <br>
    <div class="wide2">
         <div class="col-xs-4 box">
-          <img src="depthead.gif" height="200px">
+          <img src="images/depthead.gif" height="200px">
         </div>
         <div class="col-xs-4 box">
-          <img src="depthead.gif" height="200px">
+          <img src="images/depthead.gif" height="200px">
         </div>
         <div class="col-xs-4 box">
-          <img src="depthead.gif" height="200px">
+          <img src="images/depthead.gif" height="200px">
         </div>
 
         <div class="col-xs-4 box">

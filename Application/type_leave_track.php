@@ -24,7 +24,7 @@ header('Location: adminlogin.php'); // Redirecting To Home Page
 
 body {
   padding-top: 50px;
-  background-image: url('wallpaper.jpg');
+  background-image: url('images/wallpaper.jpg');
   background-repeat: repeat;
   background-size: 100%;
 
@@ -58,7 +58,7 @@ body {
   width:100%;
   height:100%;
   height:calc(100% - 1px);
-  background-image:url('headerimg1.jpg');
+  background-image:url('images/headerimg1.jpg');
   background-size:cover;
 }
 

@@ -24,7 +24,7 @@ header('Location: adminlogin.php'); // Redirecting To Home Page
 
 body {
   padding-top: 50px;
-  background-image: url('wallpaper.jpg');
+  background-image: url('images/wallpaper.jpg');
   background-repeat: repeat;
   background-size: 100%;
 
@@ -58,7 +58,7 @@ body {
   width:100%;
   height:100%;
   height:calc(100% - 1px);
-  background-image:url('headerimg1.jpg');
+  background-image:url('images/headerimg1.jpg');
   background-size:cover;
 }
 
@@ -199,10 +199,10 @@ function drawChart() {
 
 <div class="wide2">
         <div class="col-xs-4 box">
-          <img src="calendar.jpg" height="200px">
+          <img src="images/calendar.jpg" height="200px">
         </div>
         <div class="col-xs-8 box">
-          <img src="BlogPostPhoto2.jpg" height="200px">
+          <img src="images/BlogPostPhoto2.jpg" height="200px">
         </div>
        
 
@@ -222,14 +222,14 @@ function drawChart() {
   <br>
    <div class="wide2">
         <div class="col-xs-2 box">
-          <img src="depthead.gif"  height="200px">
+          <img src="images/depthead.gif"  height="200px">
         </div>
         <div class="col-xs-2 box">
-          <img src="depthead.gif" height="200px">
+          <img src="images/depthead.gif" height="200px">
         </div> 
        
         <div class="col-xs-8 box">
-          <img src="depthead.gif" height="200px">
+          <img src="images/depthead.gif" height="200px">
         </div>
 
          <div class="col-xs-2 box">
